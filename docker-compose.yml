@@ -1,0 +1,8 @@
+version: "2"
+services:
+  node-monitor:
+    build: ./
+    image: node-monitor
+    container_name: node-monitor
+    ports:
+      - "8000:8000"
